@@ -1,23 +1,8 @@
-/my-project
-  /frontend         # Frontend React
-    /public
-		/scripts
-    /src
-      /components
-      /pages
-      /styles
-      App.js
-      index.js
-  package.json
+# Meu Projeto
+Este é um projeto que utiliza React para o frontend e Express para o backend, utilizo MaterialUI Design
 
-  /backend         # Backend Express
-    /routes
-    /controllers
-    /models
-    /middleware
-    /config
-    server.js
-    package.json
+## Estrutura do Projeto
+O projeto está organizado da seguinte forma:
 
-  README.md
-  .gitignore
+![image](https://github.com/user-attachments/assets/fd504593-f339-4fa2-8b76-7393d0c3ab2c)
+
