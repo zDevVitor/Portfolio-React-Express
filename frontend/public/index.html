@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
@@ -10,14 +10,18 @@
   <link rel="stylesheet" href="/styles/styles.css">
   <title>React App</title>
 </head>
+
 <body>
   <div class="container">
     <div class="static-content">
-      <img id="logo" alt="Logo">      
+      <img id="logo" src="logo.png" alt="Logo">
+
       <div id="text-container">
-        <span id="text">Este é o texto estilizado.</span>
-        <span id="cursor">|</span> 
+        <span id="text"></span>
+        <span id="cursor">|</span>
       </div>
+      
+
       <div class="social-icons">
         <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
           <i class="material-icons">facebook</i>
@@ -37,7 +41,22 @@
     </div>
   </div>
 
-  
+  <!-- Conteúdo da segunda "página" -->
+  <div class="page-break">
+    <div class="card">
+      <h2>Card 1</h2>
+      <p>Descrição 1.</p>
+      <code>const example1 = 'example';</code>
+    </div>
+    <div class="card">
+      <h2>Card 2</h2>
+      <p>Descrição 2.</p>
+      <code>const example2 = 'example';</code>
+    </div>
+  </div>
+
+
   <script src="scripts/scritps.js"></script>
 </body>
+
 </html>

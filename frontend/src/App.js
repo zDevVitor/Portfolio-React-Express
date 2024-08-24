@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Typography } from '@mui/material';
-import './styles/styles.css'; // Importar o arquivo CSS
+import './styles/styles.css'; 
+import CustomCard from './components/Cards';
 
 function App() 
 {
   return (
     <Container>
-      <Typography className="title">
+      <Typography>
       </Typography>
     </Container>
   );
@@ -39,6 +40,21 @@ function type() {
     }
   }
   setTimeout(type, speed);
+
+
+  return (
+    <Container>
+      <div id="text-container">
+        <span id="text">Este é o texto estilizado.</span>
+        <span id="cursor">|</span>
+      </div>
+      <CustomCard
+        title="Example Title"
+        description="This is an example description of the card."
+        code="const example = 'example';"
+      />
+    </Container>
+  );
 }
 
 

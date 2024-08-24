@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (index < fullText.length) {
         textElement.textContent += fullText[index];
         index++;
-        setTimeout(type, 100); // Ajuste a velocidade da digitação aqui
+        setTimeout(type, 100); 
       }
     }
   
