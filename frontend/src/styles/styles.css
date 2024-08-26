@@ -1,17 +1,17 @@
 /* Importando a fonte Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
     background-color: #272727;
 }
 
 .container {
     display: grid;
     place-items: center;
-    height: 100vh; /* O contêiner ocupa 100% da altura da janela */
 }
 
 .static-content {
@@ -19,10 +19,11 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 100vh;
 }
 
-#cursor, #text {
+#cursor,
+#text {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 28px;
@@ -38,9 +39,18 @@ html, body {
 }
 
 @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
+
+/*  */
 
 #logo {
     width: 250px;
@@ -67,9 +77,8 @@ html, body {
     color: #007bff;
 }
 
-/* Estilo para o conteúdo adicional */
 .page-break {
-    height: 100vh; /* Nova "página" ocupando a altura da janela */
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,9 +91,8 @@ html, body {
 .card {
     max-width: 600px;
     margin: 20px auto;
-  }
-  
-  .divider {
+}
+
+.divider {
     margin: 10px 0;
-  }
-  
+}
